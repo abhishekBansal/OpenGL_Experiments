@@ -1,7 +1,7 @@
 Terrain Generator
 ==================
 
-A Terrain Generator/Visualizer based on algorithms taught on LightHouse3D.com(After making this i got to know they also have one and thats better :-/). 
+A Terrain Generator/Visualizer based on algorithms described on LightHouse3D.com(After making this i got to know they also have one and thats better :-/). 
 This again is CMake based project but go ahead and create a VS solution if you find it complex. Its tested on VS 2008(There are compilation issues with GLUI on higher versions)
 
 Library Dependancies:

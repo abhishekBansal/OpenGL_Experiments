@@ -75,7 +75,7 @@ int listbox_item_id = 12;	//  Id of the selected item in the list box
 /**************************    WATER RELATED VARIABLES    *************************/
 int water =0; //live variable for enabling or disabling water (checkbox)
 float waterHeight=.2;
-char waterTexturePath[1000]="F:\\Tech Zone\\abhishek\\Open GL\\vc++ projects\\terrainGenerator\\FaultAlgoSineFunction\\water.bmp";
+char waterTexturePath[1000]="assets\\water.bmp";
 bool textureChanged=false;
 GLuint waterTex[1];
 /**********************************************************************************/
@@ -86,7 +86,7 @@ GLUI_Spinner *nfSpinnerZ;
 GLUI_Spinner *iterationNo;
 /****************************** HEIGHT MAP *********************************/
 GLUI_Panel *heightMapPanel;
-char heightMapPath[1000] = "F:\\Tech Zone\\abhishek\\Open GL\\vc++ projects\\terrainGenerator\\FaultAlgoSineFunction\\heightmap2.jpg";
+char heightMapPath[1000] = "assets\\heightmap2.jpg";
 bool heightMapMode=false; //this flag will help in determining current mode of program execution
 /**************************************************************************/
 
@@ -353,7 +353,6 @@ void terrainComputeNormals() {
             }
             free(norm1);
         }
-
 }
 
 
