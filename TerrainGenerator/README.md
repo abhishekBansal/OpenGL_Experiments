@@ -5,7 +5,7 @@ A Terrain Generator/Visualizer based on algorithms taught on LightHouse3D.com(Af
 This again is CMake based project but go ahead and create a VS solution if you find it complex. Its tested on VS 2008(There are compilation issues with GLUI on higher versions)
 
 Library Dependancies:
-1. GLUI (It Requires GLUT and not FREEGLUT)
+1. GLUI (http://glui.sourceforge.net/)(It Requires GLUT and NOT freeglut)
 2. GLUT
 3. OpenCV
 4. TBB (My OpenCV was built with TBB so dll was required)
